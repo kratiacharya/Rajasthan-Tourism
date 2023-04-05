@@ -1,0 +1,274 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: brown;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    color:white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: blue;
+}
+h2{
+    color:black;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+
+
+.logo{
+    width: 20%;
+    float: left;
+}
+.fort{
+    line-height: 60px;
+}
+.fort ul{
+    list-style-type: none;
+}
+
+
+.fort ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+
+
+.enquiry{
+    background-image: url(../image.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15% 0;
+    background-color:white;
+}
+
+.enquiry input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.places{
+    padding: 4% 0;
+    background-color:white;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+
+.des{
+    background-color:white;
+    padding: 4% 0;
+}
+.des-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2.5%;
+    float: left;
+    background-color:rgb(199, 143, 39);
+    border-radius: 2px;
+}
+
+.des-img{
+    width: 22%;
+    float: left;
+}
+
+.des-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.des-detail{
+    font-size: 1rem;
+    color: white;
+}
+
+
+.description{
+    background-color:white;
+    padding: 4% 0;
+}
+.description-box{
+    width: 90%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color:rgb(199, 25, 25);
+    border-radius: 2px;
+}
+
+.description-img{
+    width: 22%;
+    float: left;
+}
+
+.fort-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.fort-detail{
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+
+.enquire{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.enquire-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+
+
+
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .fort ul{
+        text-align: center;
+    }
+
+    .enquiry input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .enquiry{
+        padding: 10% 0;
+    }
+
+    .places{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .des{
+        padding: 20% 0;
+    }
+
+    .des-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .enquire{
+        width: 100%;
+    }
+}
